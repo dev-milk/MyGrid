@@ -21,9 +21,9 @@ function App() {
 
 <Container fluid>
 <Row >
-     <Col xs={2} className="mx-0">
-     <div className="d-flex">
-        <ListGroup  variant="flush">
+     <Col xs={2} className="mx-0, px-0">
+       <div>
+        <ListGroup  variant="flush" className="text-center">
           <ListGroup.Item action href="/">Home-DashBoad</ListGroup.Item>
           <ListGroup.Item action href="./Works">Works-Business</ListGroup.Item>
           <ListGroup.Item action href="./About">About-Profile</ListGroup.Item>
