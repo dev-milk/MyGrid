@@ -14,7 +14,7 @@ function About() {
   return (
     <div >
      <Container >
-  <Row style={{margin: '30px'}}  className="justify-content-md-center">
+     <Row  className="justify-content-md-center m-5">
     <Col > 
      {<p>これはAboutの内容です。</p>}
     </Col>
